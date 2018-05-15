@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace Aula1405_interfaces
 {
-    class Carro : MeioTransporte
+    class Onibus : MeioTransporte
     {
-        public int Velocidade { get; set ;}
+        public int Velocidade { get; set; }
 
         public void Acelerar()
         {
-            Velocidade += 10;
+            Velocidade += 4;
         }
 
         public void Desacelerar()
         {
-            Velocidade = -6;
+            Velocidade = -1;
         }
-
     }
 }
